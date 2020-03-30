@@ -1,0 +1,52 @@
+<section>
+    <article>
+
+      <h3>Imterpolação dos dados</h3>
+      <p>Pequei pela variável o {{variavel}}</p>
+      <p>Posso executar um calculo (10 * 10) que dá {{ 10 * 10 }}</p>
+      <p>Posso pegar {{getFunction}}</p>
+      <p>Vou dividir 10 por 3 {{dividir(10, 3)}}</p>
+      <p>{{arrowF("serve")}}</p>
+    </article>
+
+    <article>
+      <h3>Propert Bind</h3>
+      <img src={{getURL()}}>
+      <img [src]="getURL()">
+      <img bind-src=getURL()>
+      <p [textContent]="propert_bind_text"></p>
+    </article>
+
+    <!--
+    <section>
+      <article>
+
+        <div class="alert alert-primary" role="alert">
+          A simple primary alert—check it out!
+        </div>
+        <div class="alert alert-secondary" role="alert">
+          A simple secondary alert—check it out!
+        </div>
+        <div class="alert alert-success" role="alert">
+          A simple success alert—check it out!
+        </div>
+        <div class="alert alert-danger" role="alert">
+          A simple danger alert—check it out!
+        </div>
+        <div class="alert alert-warning" role="alert">
+          A simple warning alert—check it out!
+        </div>
+        <div class="alert alert-info" role="alert">
+          A simple info alert—check it out!
+        </div>
+        <div class="alert alert-light" role="alert">
+          A simple light alert—check it out!
+        </div>
+        <div class="alert alert-dark" role="alert">
+          A simple dark alert—check it out!
+        </div>
+      </article>
+    </section>
+
+  -->
+</section>
